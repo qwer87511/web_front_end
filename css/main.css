@@ -19,14 +19,15 @@ h2 {
     text-align: center;
     font-size: 32px;
     margin-bottom: 20px;
-    line-height: 33.3px;
+    line-height: 50px;
+    font-weight: 800;
     color: white;
 }
 h3 {
     font-size: 1.6rem;
-    font-weight: bold;
+    font-weight: 800;
     line-height: 1.3em;
-    
+    line-height: 50px;
 }
 li {
     text-align: -webkit-match-parent;
@@ -35,7 +36,7 @@ li {
 p {
     font-size: 18px;
     margin: 20px 50px;
-    padding: 0 20px;
+    padding: 0 80px;
     line-height: 33.4px;
     font-weight: 700;
     color: white;
@@ -51,6 +52,7 @@ ul {
 a {
     text-decoration: none;
 }
+
 
 .title {
     overflow: hidden;
@@ -85,14 +87,13 @@ header {
     left: 0;
     width: 120px;
     height: 40px;
-    padding: 12px 0px 0px 30px;
 }
 .logo {
     float: left;
     position: absolute;
     width: 120px;
     height: 40px;
-    padding: 12px 0px 0px 30px;
+    margin: 12px 0px 0px 30px;
 }
 .topmenu {
     right: 0;
@@ -141,7 +142,7 @@ header {
 }
 
 .fullbackground {
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url(https://www.taiwan.net.tw/att/topBackground2/22_0000082.jpg) no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url(../images/indexBackground.jpg) no-repeat;
 }
 article {
     color: white;
@@ -151,7 +152,8 @@ article {
     display: inline-block;
     height: 30px;
     width: 30px;
-    padding: 8px 15px;
+    /* padding: 8px 15px; */
+    margin: 8px 15px;
     vertical-align: top;
 }
 nav {
@@ -212,7 +214,7 @@ footer .shareall li {
     display: inline-block;
 }
 footer .shareall img {
-    margin: 0 10px;
+    margin: 0 20px;
     height: 60px;
 }
 .footermenu_title {
@@ -245,8 +247,8 @@ footer .shareall img {
 }
 .information {
     background-size: 15%; 
-    padding: 50px 0 0 50px;
-    margin-top: 30px;
+    padding: 30px 0 0 40px;
+    margin: 90px 0 0 105px;
     height: 150px;
     color: black;
     display: block;
@@ -264,14 +266,6 @@ li:hover, a:hover {
     position: relative;
     display: inline-block;
     margin-left: 0;
-}
-.content {
-    width: 100%;
-    height: 600px;
-    background: url(../images/背景3.jpg) no-repeat;
-    background-size: 100%;
-    color: #fff;
-    text-align: center;
 }
 .viewMain {
     width: 980px;
@@ -375,4 +369,15 @@ ul.guidelink-list {
 }
 .tel {
     padding: 3px 250px;
+}
+.shareicon>ul {
+    padding-right: 40px;
+}
+.footermenu_title li>a:hover {
+    text-decoration: none;
+    color: #f90;
+}
+li:hover {
+    text-decoration: none;
+    color: #f90;
 }

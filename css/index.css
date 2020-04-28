@@ -1,5 +1,5 @@
-/*這個css沒有被使用 即將刪除 請用main.css*/
 
+}
 .content {
     width: 100%;
     height: 600px;
@@ -7,86 +7,4 @@
     background-size: 100%;
     color: #fff;
     text-align: center;
-}
-.viewMain {
-    width: 980px;
-    margin: 0 auto;
-}
-.viewMain h1 {
-    margin: 0;
-    padding-left: 200px;
-    padding-top: 70px;
-}
-.view-list{
-    margin:  50px;
-    padding: 30px;
-
-}
-.view-list>li {
-    width: 25%;
-}
-.guidelink-link {
-    margin: 10px;
-    padding: 0;
-}
-.view-list li{
-    display: inline-block;
-    margin: 10px;
-    padding: 0;
-}
-.view-list figure {
-    width: 250px;
-    height: 237px;
-    border: 2px solid #fff;
-    border-radius: 10px;
-    
-}
-.place {
-    margin: 0 auto;
-}
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-    display: block;
-}
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
-.viewMain p {
-    width: 500px;
-    padding-top: 10px;
-    padding-left: 570px;
-    margin: 0 auto;
-    text-align: left;
-}
-ul.guidelink-list {
-    list-style: none;
-    padding: 0px;
-    margin: 50px 0px;
-    text-align: center;
-    font-size: 0rem;
-}
-.guidelink-list>li {
-    display: inline-block;
-    vertical-align: top;
-    width: 250px;
-    margin: 10px;
-}
-.guidelink-list .guidelink-link {
-    display: block;
-    padding: 10px 10px 30px;
-    background-color: #fff;
-    font-size: 1.1rem;
-}
-.guidelink-list .guidelink-link figure {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 0px;
-    padding-bottom: 67%;
-    margin: 0 0  10px;
 }

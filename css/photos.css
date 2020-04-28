@@ -1,5 +1,5 @@
 article{
-    background-color: #39537D;
+    background: url(../images/ruyi.jpg) center no-repeat;
 }
 .content{
     margin: 0 auto;
@@ -45,5 +45,5 @@ h1 {
     background-color: #516686;
     border-radius: 4px;
     text-align: center;
-    colar:#FFF;
+    color:#FFF;
 }
