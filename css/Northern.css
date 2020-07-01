@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 
+=======
+body{
+    letter-spacing: 0.5px;
+}
+>>>>>>> ea75f7f... circle and good night
 .right-side>.twmap a {
     text-decoration: none;
 }
@@ -6,6 +12,14 @@
     background-color: #db3b00;
     color: white;
 }
+<<<<<<< HEAD
+=======
+.right-side> .twmap > li.Current a {
+    border-color: #db3b00;
+    background-color: #db3b00;
+    color: #fff;
+}
+>>>>>>> ea75f7f... circle and good night
 /* .empty{
     background-color: #f0f0f0;
     height: 15px;
@@ -14,8 +28,49 @@ h2 {
     text-align: left;
 }
 .left-side > p {
+<<<<<<< HEAD
     text-align: left!important;
     margin-left: 0;
     margin-right: -50px;
     padding: 0;
+=======
+    text-align: left;
+    margin-left: 0;
+    margin-right: -48px;
+    padding: 0;
+    font-weight: normal;
+}
+.circularbtn > span > img {
+    width: 35%;
+    border-radius: 50%;
+    border: 1px solid white;
+    left: 0;
+    top: 0;
+    display: block;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 3px #d8d8d8 solid;
+}
+.circularbtn .circularbtn-title{
+    width: 35%;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.15rem;
+    color: black;
+    padding-top: 15px;
+}
+.circularbtn-title:hover{
+    color: orange;
+    text-decoration: none;
+}
+.circle-img{
+    margin-top: 30px;
+}
+ul{
+    list-style: none;
+}
+.mapside .twmap{
+    
+>>>>>>> ea75f7f... circle and good night
 }
