@@ -1,0 +1,21 @@
+
+.right-side>.twmap a {
+    text-decoration: none;
+}
+.right-side>.twmap a:hover{
+    background-color: #db3b00;
+    color: white;
+}
+/* .empty{
+    background-color: #f0f0f0;
+    height: 15px;
+} */
+h2 {
+    text-align: left;
+}
+.left-side > p {
+    text-align: left!important;
+    margin-left: 0;
+    margin-right: -50px;
+    padding: 0;
+}

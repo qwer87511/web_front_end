@@ -1,5 +1,4 @@
 
-}
 .content {
     width: 100%;
     height: 600px;
@@ -7,4 +6,29 @@
     background-size: 100%;
     color: #fff;
     text-align: center;
+}
+
+/* RWD */
+@media screen and (min-width: 1281px){
+	
+}
+@media screen and (min-width: 769px) and (max-width: 1280px){
+	.navbox{
+    width: 33.332%;
+  }
+  .display-lg{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px){
+	.display-lg{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 320px){
+	.display-lg{
+    display: none;
+  }
 }
