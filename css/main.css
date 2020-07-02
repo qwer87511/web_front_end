@@ -93,7 +93,7 @@ header {
     position: absolute;
     width: 120px;
     height: 40px;
-    margin: 12px 0px 0px 30px;
+    margin: -10px 0 0 0;
 }
 .topmenu {
     right: 0;
@@ -148,12 +148,12 @@ article {
     color: white;
 }
 
-.topmenu .icon {
+.icon {
     display: inline-block;
     height: 30px;
     width: 30px;
     /* padding: 8px 15px; */
-    margin: 8px 15px;
+    margin: 3px 15px;
     vertical-align: top;
 }
 nav {
@@ -508,3 +508,24 @@ li:hover {
 	right: 0.4rem;
 }
 .toTop-arrow:focus {outline: none;}
+
+.topnav {
+    margin: 0;
+    width: 100%;
+}
+
+.topnav .nav-item {
+    padding: 16px 20px;
+    
+}
+
+.topnav .nav-link:hover {
+    color: #f90 !important;
+}
+
+.topnav .nav-link {
+    font-size: 16px;
+    border-left: gray 1px solid;
+    margin: 8px 0;
+    padding: 0;
+}
