@@ -123,3 +123,10 @@ div {
     padding: 30px 50px;
     position: relative;
 }
+.right-side>.twmap a {
+    text-decoration: none;
+}
+.right-side>.twmap a:hover{
+    background-color: #db3b00;
+    color: white;
+}
