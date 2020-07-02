@@ -1,30 +1,31 @@
-<!--SightseeingSpots-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Welcome to Taiwan!</title>
+        <title>基隆市</title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/SightseeingSpots.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/common_rwd.css">
+        <link rel="stylesheet" href="css/area_central_maioli.css">
     </head>
     <body>
         <header>
             <div class="top">
                 <div class="topbox">
-                    <div class="">
+                    <div class="top-logo">
                         <a href="./index.html"><img class="logo" src="images/logo.png"></a>
                     </div>
                     <div class="topmenu">
-                        <div class="menu">
+                        <div class="menu display-lg">
                             <ul>
-                                <a href=""><li>網站導覽</li></a>
-                                <a href=""><li>聯絡我們</li></a>
-                                <a href=""><li>行政資訊網</li></a>
-                                <a href=""><li>兒童網</li></a>
-                                <a href="./index.html"><li>回首頁</li></a>
+                                <a href="" class="display-lg"><li>網站導覽</li></a>
+                                <a href="" class="display-lg"><li>行政資訊網</li></a>
+                                <a href="" class="display-lg"><li>聯絡我們</li></a>
+                                <a href="" class="display-lg"><li>兒童網</li></a>
+                                <a href="./index.html" class="display-lg"><li>回首頁</li></a>
                             </ul>
                         </div>
                         <div class="icon">
@@ -41,8 +42,8 @@
             </div>
             <nav class="navbox top">
                 <ul>
-                    <a href="./index.html"><li class="separate">觀光動態</li></a>
-                    <a href="./SightseeingSpots.html"><li class="separate" style="color:orange">觀光景點</li></a>
+                    <a href="./index.html"><li class="separate display-lg">觀光動態</li></a>
+                    <a href="./SightseeingSpots.html"><li class="separate">觀光景點</li></a>
                     <a href="./WelcomeTaiwan.html"><li class="separate">停留台灣</li></a>
                     <a href="./photos.html"><li class="separate">旅遊風景</li></a>
                     <a href="./Schedule.html"><li class="separate">行程推薦</li></a>
@@ -50,29 +51,54 @@
                 </ul>
             </nav>
         </header>
-        
-        <div class="wrap background">
-            <div class="title"><div class="title-icon"><img src="./images/21_0000064.svg" alt=""></div><h2>觀光景點</h2></div>
-                <div class="wrap"><!--地圖-->
-                <div class="mapside row">
-                    <div class="left-side col-xl-8 col-lg-7 col-12">
-                        <h3>The Heart of Asia 旅行台灣 就是現在</h3>
-                        <p>臺灣以高山聳立聞名國際，是個有名的『高山島嶼』。三千公尺以上的高山，比比皆是，而將近四千公尺的玉山，更是東北亞的第一高峰。也因地理資源的豐沛，臺灣擁有許多特殊地形及奇特的地理景觀。</p>
-                        <p>除了高山外，還有優美的海岸風光。北起擁有各類特殊海岸地形的東北角暨宜蘭海岸國家風景區、北海岸及觀音山國家風景區，沿途山青水秀、天藍海深，廣闊的海天視野乃是此段的特色。經過風光明媚的東部海岸國家風景區及花東縱谷國家風景區的綠色走廊，其景色令人讚嘆與驚喜。一路往南，可達陽光四溢、具南國風味的大鵬灣國家風景區，就順著山勢還可一逛原民風情的茂林國家風景區，一探臺灣蝴蝶世界、魯凱石屋及大自然美景。</p>
-                        <p>友善、智慧、體驗的台灣，熱情歡迎您！</p>
-                    </div>
-                    <div class="right-side col-xl-4 col-lg-5 col-12">
-                        <ul class="twmap">
-                            <li class="area-north"><a href="Northern.html" title="北部地區">北部地區</a></li>
-                            <li class="area-central"><a href="Central.html" title="中部地區">中部地區</a></li>
-                            <li class="area-south"><a href="Southern.html" title="南部地區">南部地區</a></li>
-                            <li class="area-easten"><a href="" title="東部地區">東部地區</a></li>
-                            <li class="area-island"><a href="" title="離島地區">離島地區</a></li>
-                        </ul>
-                    </div>
+        <article class="main">
+        <!-- Carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade bg-color" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active"><img src="images/基隆市.jpg" class="d-block w-100" alt="..."></div>
+                <div class="carousel-item"><img src="images/基隆市(2).jpg" class="d-block w-100" alt="..."></div>
+                <div class="carousel-item"><img src="images/基隆市(3).jpg" class="d-block w-100" alt="..."></div>
+                <div class="carousel-item"><img src="images/基隆市(4).jpg" class="d-block w-100" alt="..."></div>
+                <div class="carousel-item"><img src="images/基隆市(5).jpg" class="d-block w-100" alt="..."></div>
             </div>
-        </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div> <!-- Carousel End -->
 
+        <div class="wrap">
+            <h2 class="h2-title">基隆市</h2>
+            <p>基隆位於臺灣北部，三面環山，僅北面一處有少量平原迎向大海，即為深水谷灣之基隆港。 港灣深入市區，水面寬闊，集商港、軍港、漁港於一身，為進入北臺灣門戶。</p>
+            <p>由於地形受東北季風的影響，基隆的冬天經常多雨，平均溫度僅在攝氏22度左右，素有「雨港之都」之稱。基隆是雨港也是漁港，魚市的漁貨種類繁多，各地遠洋、近海的漁貨種類，當天現撈的鮮活漁貨，應有盡有，崁仔頂的魚市場可說是全臺灣最有活力、有趣的魚鮮拍賣交易場。</p>
+            <p>在基隆火車站旁的小港碼頭可搭乘遊艇遊基隆港，沿岸景觀頗有可看之處，從大海看陸地山光水色，由各國駛進駛出之豪華客輪、郵輪的繁忙海港風情，湛藍的海水四季與基隆人共同生活，藍色公路之旅是正流行的親水休閒活動。</p>
+            <p>清光緒年間，為了加強鞏固海防，因而在基隆地區留下了白米甕砲台、二沙灣砲臺(海門天險)、大武崙砲台等戰時古蹟，在此遊山訪古，舊時激烈的戰況早已塵封，只見碉堡的雄偉景觀襯以一望無際的藍天碧海美景。</p>
+            <p>數百年來，基隆出入過無數異國船隻，帶來了多元的文化與新知，是臺灣與國際交流的港口，更是臺灣歷史上重要的文化港都！巨舶輻輳的國際港市、熱鬧豐美的中元祭典、多樣精緻的廟口小吃以及砲台與隧道、岬角與灣澳、漁港和魚市……，走訪其間，令人流連忘返。</p>
+            <p>更多旅遊資訊，詳見<a target="_blank" href="https://tour.klcg.gov.tw/zh/">基隆旅遊網</a>。</p>
+            <h3>推薦觀光景點</h3>
+            <ul class="guidelink-list">
+                <li><h3><a href="./SightseeingSpots.html" title="" target="_self" class="guidelink-link"><figure><img src="./images/基隆市_基隆市廟口小吃.jpg" alt=""></figure><div class="guidelink-title">基隆市廟口小吃</div></a></h3></li>
+                <li><h3><a href="" title="" target="_self" class="guidelink-link"><figure><img src="./images/基隆市_和平島公園.jpg" alt=""></figure><div class="guidelink-title">和平島公園</div></a></h3></li>
+                <li><h3><a href="" title="" target="_self" class="guidelink-link"><figure><img src="./images/基隆市_外木山情人湖濱海大道.jpg" alt=""></figure><div class="guidelink-title">外木山情人湖濱海大道</div></a></h3></li>
+                <li><h3><a href="" title="" target="_self" class="guidelink-link"><figure><img src="./images/基隆市_碧砂漁港.jpg" alt=""></figure><div class="guidelink-title">碧砂漁港</div></a></h3></li>
+                <li><h3><a href="" title="" target="_self" class="guidelink-link"><figure><img src="./images/基隆市_中正公園.jpg" alt=""></figure><div class="guidelink-title">中正公園</div></a></h3></li>
+                <li><h3><a href="" title="" target="_self" class="guidelink-link"><figure><img src="./images/基隆市_八斗子海濱公園忘憂谷.jpg" alt=""></figure><div class="guidelink-title">八斗子海濱公園/望幽谷</div></a></h3></li>
+                <li><h3><a href="" title="" target="_self" class="guidelink-link"><figure><img src="./images/基隆市_二沙灣砲台(海門天險).jpg" alt=""></figure><div class="guidelink-title">二沙灣砲台(海門天險)</div></a></h3></li>
+                <li><h3><a href="" title="" target="_self" class="guidelink-link"><figure><img src="./images/基隆市_基隆嶼.jpg" alt=""></figure><div class="guidelink-title">基隆嶼</div></a></h3></li>
+            </ul>
+        </div>
+        </article>
         <footer>
             <div class="shareall">
                 <div class="shareicon">
@@ -169,9 +195,5 @@
         </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <button type="button" id="BackTop" class="toTop-arrow"></button>
-        <script src="js/js.js"></script>
     </body>
-
-    
 </html>

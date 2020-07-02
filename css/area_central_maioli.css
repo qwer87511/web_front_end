@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: #F5F5F5;
 }
 .h2-title, .wrap>p{
     color: black;
@@ -16,7 +16,7 @@ p a{
     text-decoration: underline #db3b00;
 }
 h3{
-    margin: 7rem 0 0 8rem;
+    margin: 7rem 0 3rem 8.2rem;
     line-height: 0;
 }
 .guidelink-list>li{
@@ -25,6 +25,10 @@ h3{
 .guidelink-title{
     padding-top: 15px;
     padding-bottom: 25px;
+}
+h4{
+    margin: 2rem 0 0 8.2rem;
+    font-weight: 700;
 }
 
 

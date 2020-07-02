@@ -1,30 +1,31 @@
-<!--SightseeingSpots-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Welcome to Taiwan!</title>
+        <title>新竹市</title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/SightseeingSpots.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/common_rwd.css">
+        <link rel="stylesheet" href="css/area_central_maioli.css">
     </head>
     <body>
         <header>
             <div class="top">
                 <div class="topbox">
-                    <div class="">
+                    <div class="top-logo">
                         <a href="./index.html"><img class="logo" src="images/logo.png"></a>
                     </div>
                     <div class="topmenu">
-                        <div class="menu">
+                        <div class="menu display-lg">
                             <ul>
-                                <a href=""><li>網站導覽</li></a>
-                                <a href=""><li>聯絡我們</li></a>
-                                <a href=""><li>行政資訊網</li></a>
-                                <a href=""><li>兒童網</li></a>
-                                <a href="./index.html"><li>回首頁</li></a>
+                                <a href="" class="display-lg"><li>網站導覽</li></a>
+                                <a href="" class="display-lg"><li>行政資訊網</li></a>
+                                <a href="" class="display-lg"><li>聯絡我們</li></a>
+                                <a href="" class="display-lg"><li>兒童網</li></a>
+                                <a href="./index.html" class="display-lg"><li>回首頁</li></a>
                             </ul>
                         </div>
                         <div class="icon">
@@ -41,8 +42,8 @@
             </div>
             <nav class="navbox top">
                 <ul>
-                    <a href="./index.html"><li class="separate">觀光動態</li></a>
-                    <a href="./SightseeingSpots.html"><li class="separate" style="color:orange">觀光景點</li></a>
+                    <a href="./index.html"><li class="separate display-lg">觀光動態</li></a>
+                    <a href="./SightseeingSpots.html"><li class="separate">觀光景點</li></a>
                     <a href="./WelcomeTaiwan.html"><li class="separate">停留台灣</li></a>
                     <a href="./photos.html"><li class="separate">旅遊風景</li></a>
                     <a href="./Schedule.html"><li class="separate">行程推薦</li></a>
@@ -50,29 +51,40 @@
                 </ul>
             </nav>
         </header>
-        
-        <div class="wrap background">
-            <div class="title"><div class="title-icon"><img src="./images/21_0000064.svg" alt=""></div><h2>觀光景點</h2></div>
-                <div class="wrap"><!--地圖-->
-                <div class="mapside row">
-                    <div class="left-side col-xl-8 col-lg-7 col-12">
-                        <h3>The Heart of Asia 旅行台灣 就是現在</h3>
-                        <p>臺灣以高山聳立聞名國際，是個有名的『高山島嶼』。三千公尺以上的高山，比比皆是，而將近四千公尺的玉山，更是東北亞的第一高峰。也因地理資源的豐沛，臺灣擁有許多特殊地形及奇特的地理景觀。</p>
-                        <p>除了高山外，還有優美的海岸風光。北起擁有各類特殊海岸地形的東北角暨宜蘭海岸國家風景區、北海岸及觀音山國家風景區，沿途山青水秀、天藍海深，廣闊的海天視野乃是此段的特色。經過風光明媚的東部海岸國家風景區及花東縱谷國家風景區的綠色走廊，其景色令人讚嘆與驚喜。一路往南，可達陽光四溢、具南國風味的大鵬灣國家風景區，就順著山勢還可一逛原民風情的茂林國家風景區，一探臺灣蝴蝶世界、魯凱石屋及大自然美景。</p>
-                        <p>友善、智慧、體驗的台灣，熱情歡迎您！</p>
-                    </div>
-                    <div class="right-side col-xl-4 col-lg-5 col-12">
-                        <ul class="twmap">
-                            <li class="area-north"><a href="Northern.html" title="北部地區">北部地區</a></li>
-                            <li class="area-central"><a href="Central.html" title="中部地區">中部地區</a></li>
-                            <li class="area-south"><a href="Southern.html" title="南部地區">南部地區</a></li>
-                            <li class="area-easten"><a href="" title="東部地區">東部地區</a></li>
-                            <li class="area-island"><a href="" title="離島地區">離島地區</a></li>
-                        </ul>
-                    </div>
+        <article class="main">
+        <!-- Carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade bg-color" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active"><img src="images/新竹市.jpg" class="d-block w-100" alt="..."></div>
             </div>
-        </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div> <!-- Carousel End -->
 
+        <div class="wrap">
+            <h2 class="h2-title">新竹市</h2>
+            <p>新竹原名竹塹，北從桃園台地的尾端至鳳山崎，南到香山丘陵，三面環山，僅西面臨海，形成一畚箕地形。是臺灣與中國大陸東南沿海距離最短之處，人口分佈以客家人居多，占總人口數的85％以上，因此在臺灣的客家文化史上扮演舉足輕重的角色，而閩南人則多係來自泉州，現集中於新竹市。</p>
+            <p>新竹懷抱著古老的文化，努力展現新的科學城風貌，在新舊交替的背後，潛藏了數百年來風雨飄搖下獨有的魅力，值得細細品嚐。</p>
+            <p>近十幾年來，由於科學工業園區的設立，標榜著高科技以及勤奮、積極的工作態度與價值觀，一批批外籍勞工和高學歷新移民漸次湧入，為這個傳統城市帶來不同的思維與衝擊。舊有的文化產業和生活方式在與不斷求新、求突破的高科技產業相互撞擊、激盪下，發生各種蛻變與新的可能，讓新竹成為既是文化、教育資源和生活休閒的中心，也是一個重要的科技城市。</p>
+            <p>更多旅遊資訊，詳見<a target="_blank" href="https://www.tourism.hccg.org.tw/index">新竹市觀光旅遊網</a>。</p>
+            <h3>推薦觀光景點</h3>
+            <ul class="guidelink-list">
+                <li><h3><a href="./SightseeingSpots.html" title="" target="_self" class="guidelink-link"><figure><img src="./images/新竹市_青草湖.jpg" alt=""></figure><div class="guidelink-title">青草湖</div></a></h3></li>
+                <li><h3><a href="" title="" target="_self" class="guidelink-link"><figure><img src="./images/新竹市_新竹城隍廟.jpg" alt=""></figure><div class="guidelink-title">觀新竹城隍廟</div></a></h3></li>
+                <li><h3><a href="" title="" target="_self" class="guidelink-link"><figure><img src="./images/新竹市_竹塹城迎曦門.jpg" alt=""></figure><div class="guidelink-title">竹塹城迎曦門</div></a></h3></li>
+                <li><h3><a href="" title="" target="_self" class="guidelink-link"><figure><img src="./images/新竹市_十七公里海岸風景區.jpg" alt=""></figure><div class="guidelink-title">十七公里海岸風景區</div></a></h3></li>
+            </ul>
+        </div>
+        </article>
         <footer>
             <div class="shareall">
                 <div class="shareicon">
@@ -169,9 +181,5 @@
         </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <button type="button" id="BackTop" class="toTop-arrow"></button>
-        <script src="js/js.js"></script>
     </body>
-
-    
 </html>
