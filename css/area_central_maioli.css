@@ -1,6 +1,9 @@
 .h2-title, .wrap>p{
     color: black;
-    margin-top: 1.2rem;
+    margin-top: 1.5rem;
+}
+.h2-title{
+    padding-top: 1.5rem;
 }
 .wrap p{
     font-weight: normal;
@@ -9,3 +12,16 @@ p a{
     color: #db3b00;
     text-decoration: underline #db3b00;
 }
+h3{
+    margin: 7rem 0 0 8rem;
+    line-height: 0;
+}
+.guidelink-list>li{
+    width: 300px;
+}
+.guidelink-title{
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+
