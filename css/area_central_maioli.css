@@ -1,3 +1,6 @@
+body{
+    background-color: white;
+}
 .h2-title, .wrap>p{
     color: black;
     margin-top: 1.5rem;
