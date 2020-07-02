@@ -26,11 +26,6 @@ body {
     color: white;
     letter-spacing: 0.5px;
 }
-.left-side {
-    float: left;
-    width: calc(100% - 650px);
-
-}
 div {
     display: block;
 }
@@ -102,9 +97,6 @@ div {
     font-size: 1rem;
     color: #020202;
 }
-.mapside .right-side {
-    width: 650px;
-}
 .content>.wrap a {
     text-decoration: none;
     border-bottom: 1px #db3b00 solid;
@@ -120,13 +112,9 @@ div {
     top: 100%;
 }
 .wrap {
-    padding: 30px 50px;
+    padding: 20px;
     position: relative;
 }
-.right-side>.twmap a {
-    text-decoration: none;
-}
-.right-side>.twmap a:hover{
-    background-color: #db3b00;
-    color: white;
+.cirularbtn-img {
+    margin: auto;
 }

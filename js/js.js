@@ -18,4 +18,21 @@ $(function(){
             $('#BackTop').stop().fadeOut(222);
         }
     }).scroll();
+
+    // you know the size for your image
+    // imageWidth = 1919;
+    // imageHeight = 761;
+    // imageProportion = imageHeight/imageWidth;
+
+    // function resizeJumbo() {
+    //     $("#hungry").css({ height: $(window).width() * imageProportion });
+    // }
+
+    // $(window).on("resize", function() {
+    //     resizeJumbo();
+    // });
+
+    // $(document).ready(function() {
+    //     resizeJumbo();
+    // });
 });

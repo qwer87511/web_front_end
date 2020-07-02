@@ -5,50 +5,65 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Welcome to Taiwan!</title>
-        <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/photos.css">
     </head>
     <body>
-        <header>
-            <div class="top">
-                <div class="topbox">
-                    <div class="">
-                        <a href="./index.html"><img class="logo" src="images/logo.png"></a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light topnav">
+            <a class="navbar-brand" href="#"><img class="logo" src="images/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">網站導覽</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">行政資訊網</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">聯絡我們</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">兒童網</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Language
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">中文</a>
+                    <a class="dropdown-item" href="#">Chinese</a>
+                    <a class="dropdown-item" href="#">Chinois</a>
+                    <a class="dropdown-item" href="#">Seres</a>
+                    <a class="dropdown-item" href="#">китайский</a>
                     </div>
-                    <div class="topmenu">
-                        <div class="menu">
-                            <ul>
-                                <a href=""><li>網站導覽</li></a>
-                                <a href=""><li>聯絡我們</li></a>
-                                <a href=""><li>行政資訊網</li></a>
-                                <a href=""><li>兒童網</li></a>
-                                <a href="./index.html"><li>回首頁</li></a>
-                            </ul>
-                        </div>
-                        <div class="icon">
-                            <a href=""><img class="icon" src="images/facebook.png"></a>
-                        </div>
-                        <div class="icon">
-                            <a href=""><img class="icon" src="images/youtube.png"></a>
-                        </div>
-                        <div class="language">
-                            <a href="">Language</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <nav class="navbox top">
-                <ul>
-                    <a href="./index.html"><li class="separate">觀光動態</li></a>
-                    <a href="./SightseeingSpots.html"><li class="separate">觀光景點</li></a>
-                    <a href="./WelcomeTaiwan.html"><li class="separate">停留台灣</li></a>
-                    <a href="./photos.html"><li class="separate"  style="color:orange">旅遊風景</li></a>
-                    <a href="./Schedule.html"><li class="separate">行程推薦</li></a>
-                    <a href="./FAQ.html"><li>遊客互動</li></a>
+                </li>
                 </ul>
-            </nav>
-        </header>
+            </div>
+        </nav>
+        <ul class="nav justify-content-center second-nav">
+            <li class="nav-item">
+                    <a class="nav-link active" href="./index.html" style="color:#f90">觀光動態</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="./SightseeingSpots.html">觀光景點</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="./WelcomeTaiwan.html">停留台灣</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="./photos.html">旅遊風景</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="./Schedule.html">行程推薦</a>
+            </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./FAQ.html">遊客互動</a>
+            </li>
+        </ul>
         
         <article>
             <div style="margin-top: 20px;">
@@ -95,85 +110,17 @@
                     </ul>
                 </div>
             </div>
-
-            <ul class="footermenu_title">
-                <li>
-                    <a href="">觀光動態</a>
-                    <ul class="footermenu_item">
-                        <li><a href="">最新消息</a></li>
-                        <li><a href="">觀光活動</a></li>
-                        <li><a href="">會展資訊</a></li>
-                        <li><a href="">訂閱RSS</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="./FAQ.html">行前規劃</a>
-                    <ul class="footermenu_item">
-                        <li><a href="">來臺旅遊須知</a></li>
-                        <li><a href="">交通資訊</a></li>
-                        <li><a href="">住宿指南</a></li>
-                        <li><a href="">旅遊諮詢服務</a></li>
-                        <li><a href="" >旅遊電子地圖</a></li>
-                        <li><a href="">旅遊實用APP</a></li>
-                        <li><a href="./FAQ.html">FAQ</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="./WelcomeTaiwan.html">停留台灣</a>
-                    <ul class="footermenu_item">
-                        <li><a href="">歡迎來臺灣</a></li>
-                        <li><a href="">臺灣概況</a></li>
-                        <li><a href="">氣候概況</a></li>
-                        <li><a href="">自然環境</a></li>
-                        <li><a href="">歷史沿革</a></li>
-                        <li><a href="">傳統文藝</a></li>
-                        <li><a href="">宗教信仰</a></li>
-                        <li><a href="">風俗民情</a></li>
-                        <li><a href="">感動心故事</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="">旅遊台灣</a>
-                    <ul class="footermenu_item">
-                        <li><a href="">旅遊景點</a></li>
-                        <li><a href="">節慶活動</a></li>
-                        <li><a href="">美食天堂</a></li>
-                        <li><a href="">購物萬象</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="./Schedule.html">行程推薦</a>
-                    <ul class="footermenu_item">
-                            <li><a href="">主題行程</a></li>
-                            <li><a href="">無障礙旅遊</a></li>
-                            <li><a href="">台灣觀巴</a></li>
-                            <li><a href="">穆斯林友善環境</a></li>
-                            <li><a href="">銀髮族旅遊</a></li>
-                            <li><a href="">部落輕旅行</a></li>
-                            <li><a href="">漫遊客庄</a></li>
-                            <li><a href="">體驗觀光。點亮村落</a></li>
-                        </ul>
-                </li>
-                <li>
-                    <a href="./VideoInteraction.html">影音互動</a>
-                    <ul class="footermenu_item">
-                        <li><a href="">宣傳影片</a></li>
-                        <li><a href="">廣告片</a></li>
-                        <li><a href="">歌曲音樂</a></li>
-                        <li><a href="">電子報</a></li>
-                        <li><a href="">旅遊電子書</a></li>
-                        <li><a href="">桌布下載</a></li>
-                        <li><a href="">電子賀卡</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <div class="information">
-                <div class="">
-                    <div ><a href="./index.html"></a><img class="logo" src="images/logo.png"></a></div>
-                    <div class="tel">免付費旅遊諮詢熱線：<span>0800000000</span> </div>
-                    <div class="tel">24小時免付費旅遊諮詢熱線：<span>0800000000</span> </div>
-                    <div class="tel">地址：<span>10608 台北市忠孝東路三段一號</span> </div>
-                    <div class="tel">網站信箱：<span>Traveler@travel.com</span> </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col grid-center">
+                        <div class="grid-item" ><a href="#"></a><img class="" src="images/logo.png"></a></div>
+                    </div>
+                    <div class="col grid-center">
+                        <div class="grid-item">免付費旅遊諮詢熱線：0800000000</div>
+                        <div class="grid-item">24小時免付費旅遊諮詢熱線：0800000000</div>
+                        <div class="grid-item">地址：10608 台北市忠孝東路三段一號</div>
+                        <div class="grid-item">網站信箱：Traveler@travel.com</div>
+                    </div>
                 </div>
             </div>
         </footer>

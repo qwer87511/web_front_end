@@ -1,4 +1,4 @@
-/* Global Style */
+
 html{
     margin:0 ;
     padding: 0;
@@ -21,7 +21,6 @@ body{
   padding: 0;
 } 
 
-/* Header Style */
 .container_top{
   width: 940px;
   height: 42px;
@@ -42,22 +41,6 @@ body{
 .link_area_item{
   margin-left: 10px;
 }
-/* .link_area_item_hover:hover{
-  border-radius: 3px;
-  border: solid 1px #778a50;
-  background-color: #778a50;
-}   */
-/* .btn_LOGIN_box:hover{
-  background-color: #778a50;
-  color: #edf2c5;
-}
-.btn_JOIN_box:hover{
-  background-color: #778a50;
-} */
-/* .btn_box_link:hover{
-  color: #edf2c5;
-  background-color: #778a50;
-} */
 h1 {
   width: 271px;
   height: 42px;

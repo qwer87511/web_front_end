@@ -331,11 +331,11 @@
         box-sizing: border-box;
     }
 
-    .left-side h3,
+    /* .left-side h3,
     .left-side .h3 {
         text-align: center;
         font-size: 2rem;
-    }
+    } */
 
     header .search-zone {
         display: none;
@@ -451,11 +451,11 @@
         height: 50px;
     }
 
-    .left-side h3,
+    /* .left-side h3,
     .left-side .h3 {
         text-align: center;
         font-size: 1.6rem;
-    }
+    } */
 
     footer .leaflet>li a {
         width: 140px;

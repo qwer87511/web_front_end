@@ -1,9 +1,14 @@
+html,body {
+    height: 100% !important;
+    width: 100% !important;
+}
+
 html, body, div {
     margin: 0;
     padding: 0;
     border: 0;
     font-family: 微軟正黑體, Arial, Verdana, Helvetica, sans-serif;
-    vertical-align: baseline;
+    /* vertical-align: baseline; */
     color: white;
     margin: 0;
     padding: 0;
@@ -11,6 +16,14 @@ html, body, div {
     display: block;
     color: black;
 }
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 0 0;
+    margin: 0 0;
+}
+
 article {
     color: white;
 }
@@ -35,8 +48,8 @@ li {
 
 p {
     font-size: 18px;
-    margin: 20px 50px;
-    padding: 0 80px;
+    margin: 20px;
+    padding: 0 ;
     line-height: 33.4px;
     font-weight: 700;
     color: white;
@@ -80,20 +93,12 @@ header {
     box-sizing: border-box;
     position: relative;
 }
-.topbox .logo {
-    float: left;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 120px;
-    height: 40px;
-}
 .logo {
     float: left;
     position: absolute;
     width: 120px;
     height: 40px;
-    margin: -10px 0 0 0;
+    margin: -15px 0 0 0;
 }
 .topmenu {
     right: 0;
@@ -142,7 +147,9 @@ header {
 }
 
 .fullbackground {
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url(../images/indexBackground.jpg) no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url(../images/indexBackground.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
 }
 article {
     color: white;
@@ -182,23 +189,10 @@ nav li {
 nav .separate {
     border-right: 1px solid #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-footer {
-    
-}
 footer .shareall {
     box-sizing: border-box;
     width: 100%;
+    margin: 0  0 20px 0 ;
     padding: 30px;
     text-align: center;
     background-color: white;
@@ -229,7 +223,7 @@ footer .shareall img {
     margin-left: 0;
 }
 .footermenu_title li>a {
-    color: orange;
+    color: #f90;
     padding: 10px 20px 10px 10px;
     box-sizing: border-box;
     width: 160px;
@@ -257,7 +251,7 @@ footer .shareall img {
     color: #f90;
 }
 li:hover, a:hover {
-    color: orange;
+    color: #f90;
 }
 .guidelink-list>li>h3>a:hover {
     background-color: #f90;
@@ -383,7 +377,7 @@ li:hover {
 }
 
 /* RWD */
-@media screen and (min-width: 1281px){
+/* @media screen and (min-width: 1281px){
 	
 }
 @media screen and (min-width: 769px) and (max-width: 1280px){
@@ -405,7 +399,7 @@ li:hover {
 	.display-lg{
     display: none;
   }
-}
+} */
 /* 40px */
 .toTop-arrow {
 	width: 2.5rem;
@@ -526,6 +520,44 @@ li:hover {
 .topnav .nav-link {
     font-size: 16px;
     border-left: gray 1px solid;
-    margin: 8px 0;
-    padding: 0;
+    margin: 20px 0;
+    padding: 0px 0;
+}
+
+.second-nav {
+    width: 100%;
+    /*height: 64px;*/
+    background-color: white;
+}
+
+.second-nav li {
+    /* line-height: 30px; */
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+    padding: 2px 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.second-nav a {
+    color: #000;
+}
+
+.grid-center img {
+    margin: auto;
+}
+.grid-center div {
+    margin: auto;
+}
+.grid-item {
+display: flex;
+}
+.grid-item {
+margin: auto;
+}
+span, img {
+margin: auto;
+}
+.second-nav .nav-link:hover {
+    color: #f90;
 }
