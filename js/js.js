@@ -1,4 +1,13 @@
 $(function(){
+    $(window).resize(function() {
+        if($(window).width() > 1160){
+            $(".footermenu_title").css("display", "");
+        }
+        else{
+            $(".footermenu_title").css("display", "none");
+        }
+    });
+
     $('#BackTop').click(function(){ 
         $('html,body').animate({scrollTop:0}, 333);
     });
