@@ -1,0 +1,11 @@
+.h2-title, .wrap>p{
+    color: black;
+    margin-top: 1.2rem;
+}
+.wrap p{
+    font-weight: normal;
+}
+p a{
+    color: #db3b00;
+    text-decoration: underline #db3b00;
+}
